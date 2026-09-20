@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#08080D"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="OWN DEVICE REMOTE"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="FULL CONTROL • LOCAL DEVICE"
+            android:textColor="#FF1744"
+            android:textSize="12sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/deviceInfo"
+            android:text="Memuat informasi perangkat..."
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:background="#14141F"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/torchOn"
+            android:text="🔦  SENTER ON"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/torchOff"
+            android:text="🔦  SENTER OFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/ring"
+            android:text="🔔  BUNYIKAN + GETAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/refresh"
+            android:text="🔄  REFRESH STATUS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/log"
+            android:text="LOG AKTIVITAS"
+            android:textColor="#A9A9B3"
+            android:textSize="13sp"
+            android:background="#14141F"
+            android:padding="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
